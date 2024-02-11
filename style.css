@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+body{
+  background-color: #17202A;
+  color: #283747;
+  font-family: 'Poppins', sans-serif;
+  margin:0px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+section{
+  width:100%;
+  height:100%;
+  position:absolute;
+  display: grid;
+  place-items: center;
+}
+
+.base{
+  height:450px;
+  width:300px;
+  background-color: #34495E;
+  position:absolute;
+  display: collum;
+  place-items: center;
+  border-radius:30px;
+  overflow: hidden;
+}
+
+.slide{
+  margin-top:50px;
+  height:150px;
+  width:100%;
+  position:absolute;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.sl{
+  width:180px;
+}
+.v{
+  margin-top:9px;
+  height:150px;
+  width:52px;
+  position: absolute;
+  right:0px;
+  display: grid;
+  place-items: left;
+  align-items: center;
+}
+.color{
+  height:190px;
+  width:100%;
+}
+
+#col{
+  background-color:rgba(46, 204, 113,1.0);
+  height:100%;
+}
+
+input[type=range] {
+  height: 25px;
+  -webkit-appearance: none;
+  background: #34495E;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animatation: 0.2s;
+  border-radius: 10px;
+}
+input[type=range]::-webkit-slider-thumb {
+  border: 2px solid #2874A6;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #34495E;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+input[type=range].r::-webkit-slider-thumb {
+  border: 2px solid #B03A2E;
+}
+input[type=range].g::-webkit-slider-thumb {
+  border: 2px solid #229954;
+}
+input[type=range].b::-webkit-slider-thumb {
+  border: 2px solid #2874A6;
+}
+#shadowR{
+  background:linear-gradient(to right, #B03A2E 0%, #B03A2E 20%, #283747 20%, #283747 100%);
+  appearance: none;
+  width: 180px;
+  height: 5px;
+  cursor: pointer;
+  animatation: 0.2s;
+  border-radius: 10px;
+}
+
+#shadowG{
+  background:linear-gradient(to right, #229954 0%, #229954 75%, #283747 75%, #283747 100%);
+  appearance: none;
+  width: 180px;
+  height: 5px;
+  cursor: pointer;
+  animatation: 0.2s;
+  border-radius: 10px;
+}
+
+#shadowB{
+  background:linear-gradient(to right, #2874A6 0%, #2874A6 45%, #283747 45%, #283747 100%);
+  appearance: none;
+  width: 180px;
+  height: 5px;
+  cursor: pointer;
+  animatation: 0.2s;
+  border-radius: 10px;
+}
